@@ -1,1 +1,193 @@
-do
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Chip Cookies Recipe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f9f5f0;
+            color: #5c3d2e;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        header {
+            background: linear-gradient(to right, #8B4513, #D2691E);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            font-style: italic;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .intro {
+            padding: 25px;
+            text-align: center;
+            border-bottom: 1px dashed #D2691E;
+        }
+        
+        .intro p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        
+        .cookie-image {
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            background-color: #fff9e6;
+        }
+        
+        .cookie-image img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .image-caption {
+            font-style: italic;
+            margin-top: 10px;
+            color: #7a7a7a;
+        }
+        
+        .content-wrapper {
+            display: flex;
+            gap: 30px;
+            padding: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .ingredients-section, .instructions-section {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        h2 {
+            color: #8B4513;
+            border-bottom: 2px solid #D2691E;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        
+        ul, ol {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 12px;
+            font-size: 1.05rem;
+        }
+        
+        .tips {
+            background-color: #fff9e6;
+            padding: 20px 30px;
+            border-top: 1px dashed #D2691E;
+        }
+        
+        .tips h3 {
+            color: #8B4513;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #8B4513;
+            color: white;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Chocolate Chip Cookies</h1>
+            <p class="tagline">The ultimate guide for making mini chocolate chip cookies</p>
+        </header>
+        
+        <section class="intro">
+            <p>Welcome to the ultimate guide for making mini chocolate chip cookies! These bite-sized treats are perfect for satisfying your sweet tooth without overindulging.</p>
+            <p>Follow this simple recipe to create delicious, crispy-on-the-outside, chewy-on-the-inside mini chocolate chip cookies that everyone will love.</p>
+        </section>
+        
+        <div class="cookie-image">
+            <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Chocolate chip cookies on a baking sheet">
+            <p class="image-caption">Chocolate chip cookies on a baking sheet</p>
+        </div>
+        
+        <div class="content-wrapper">
+            <section class="ingredients-section">
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>1 cup all-purpose flour</li>
+                    <li>1/2 teaspoon baking soda</li>
+                    <li>1/4 cup unsalted butter, softened</li>
+                    <li>1/4 cup granulated sugar</li>
+                    <li>1/2 teaspoon vanilla extract</li>
+                    <li>1/2 cup mini chocolate chips</li>
+                </ul>
+            </section>
+            
+            <section class="instructions-section">
+                <h2>Instructions</h2>
+                <ol>
+                    <li>Preheat your oven to 350°F (175°C) and line a baking sheet with parchment paper.</li>
+                    <li>In a bowl, whisk together the flour and baking soda.</li>
+                    <li>In another bowl, beat the butter, sugar, and vanilla extract until creamy.</li>
+                    <li>Gradually add the dry ingredients to the wet mixture, then fold in the mini chocolate chips.</li>
+                    <li>Drop small spoonfuls of dough onto the baking sheet.</li>
+                    <li>Bake for 8-10 minutes, then let cool before enjoying!</li>
+                </ol>
+            </section>
+        </div>
+        
+        <section class="tips">
+            <h3>Baking Tips</h3>
+            <p>For extra chewy cookies, slightly underbake them and let them cool on the baking sheet. If you prefer crispier cookies, bake for the full 10 minutes. You can also add a pinch of salt to enhance the chocolate flavor!</p>
+        </section>
+        
+        <footer>
+            <p>© 2023 Chocolate Chip Cookies Recipe | Enjoy your baking!</p>
+        </footer>
+    </div>
+</body>
+</html>
