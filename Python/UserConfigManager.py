@@ -1,6 +1,4 @@
-**UserConfigManager.py**
 
-```python
 test_settings = {
     'theme': 'light',
     'language': 'english'
@@ -47,4 +45,3 @@ def view_settings(settings):
         result += f"{capitalized_key}: {value}\n"
     
     return result
-```
